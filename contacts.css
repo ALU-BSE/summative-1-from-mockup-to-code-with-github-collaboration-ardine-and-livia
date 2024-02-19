@@ -1,0 +1,276 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 1440px;
+  height: 7663px;
+  position: relative;
+  background: white;
+  border: 1px black solid;
+}
+
+/* Top bar */
+.top-bar {
+  width: 1440px;
+  height: 86px;
+  left: 0px;
+  top: 1px;
+  position: absolute;
+  background: #00A3E0;
+}
+
+/* Navigation bar */
+.nav-bar {
+  width: 1440px;
+  height: 50px;
+  left: 0px;
+  top: 87px;
+  position: absolute;
+}
+
+/* District title */
+.district-title {
+  left: 252px;
+  top: 24px;
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* Search bar */
+.search-bar {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  height: 37px;
+  padding: 10px 20px;
+  left: 600px;
+  top: 23px;
+  position: absolute;
+  background: white;
+  border-radius: 40px;
+  border: 1px black solid;
+}
+
+.search-bar-text {
+  color: black;
+  font-size: 12px;
+  font-family: Open Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.search-bar-icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+
+.search-bar-icon img {
+  width: 21.64px;
+  height: 21.95px;
+  left: 1.68px;
+  top: 1.53px;
+  position: absolute;
+}
+
+/* User menu */
+.user-menu {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 5px;
+  left: 1124px;
+  top: 31px;
+  position: absolute;
+  background: white;
+  border-radius: 15px;
+}
+
+.user-menu-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.user-menu-icon div {
+  width: 21px;
+  height: 13px;
+  left: 1.50px;
+  top: 5.50px;
+  position: absolute;
+  background: black;
+}
+
+.user-menu-text {
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.user-menu-language {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.user-menu-language-text {
+  color: black;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.user-menu-language-icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+
+.user-menu-language-icon div {
+  width: 11.37px;
+  height: 5.44;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  left: 180px;
+  top: 11px;
+  position: absolute;
+  background: white;
+  border-radius: 9999px;
+}
+.footer-container {
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  left: 0px;
+  top: 7254px;
+  position: absolute;
+  background: #00A3E0;
+  justify-content: center;
+  align-items: center;
+  gap: 149px;
+  display: inline-flex;
+}
+
+.footer-content {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  display: inline-flex;
+}
+
+.section {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 11px;
+  display: flex;
+}
+
+.title {
+  color: white;
+  font-size: 35px;
+  font-family: Open Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.contact, .subtitle {
+  color: white;
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.info-box {
+  width: 1125px;
+  height: 446px;
+  padding-top: 50px;
+  padding-bottom: 33px;
+  padding-left: 33px;
+  padding-right: 177px;
+  background: white;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 35px;
+  display: inline-flex;
+}
+
+.info-box .placeholder-image {
+  width: 421px;
+  height: 363px;
+}
+
+.info-box .content {
+  width: 459px;
+  height: 360px;
+  position: relative;
+}
+
+.info-box .content .title {
+  left: 150px;
+  top: 0px;
+  position: absolute;
+  color: black;
+  font-size: 32px;
+  font-family: Open Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.info-box .content .info {
+  width: 397px;
+  height: 243px;
+  left: 62px;
+  top: 117px;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.info-box .content .info a {
+  text-decoration: underline;
+}
+
+.info-box .content img {
+  width: 62px;
+  height: 44px;
+  position: absolute;
+}
+
+.info-box .placeholder-image {
+  
+  width: 421px;
+  height: 359px;
+  left: 47px; top: 50px;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  left: 180px;
+  top: 11px;
+  position: absolute;
+  background: white;
+  border-radius: 9999px;
+}
