@@ -38,6 +38,16 @@ body {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+@media (max-width:800px) {
+  .sectors {
+    padding-left: 10px;
+  padding-right: 10px;
+  }
 }
 
 .sectors-card-container {
