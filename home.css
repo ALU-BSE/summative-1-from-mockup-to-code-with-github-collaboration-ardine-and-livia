@@ -1,0 +1,79 @@
+:root {
+    --hero-background: -moz-linear-gradient();
+    --hero-title-font-weight: bold;
+    --hero-desc-font-style: italic;
+    --recent-actions-heading-align: center;
+    --recent-actions-heading-font-weight: bolder;
+    --recent-actions-heading-font-size: 25px;
+}
+  
+.hero-section {
+   background-image: var(--hero-background);
+}
+  
+.hero-section .hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items:first baseline;
+  padding:10%
+}
+  
+.hero-section .hero-content .hero-title {
+  font-weight: var(--hero-title-font-weight);
+}
+  
+.hero-section .hero-content .hero-desc {
+  font-style: var(--hero-desc-font-style);
+}
+  
+.recent-h3 {
+  text-align: var(--recent-actions-heading-align);
+  font-weight: var(--recent-actions-heading-font-weight);
+  font-size: var(--recent-actions-heading-font-size);
+}
+
+.recent-actions {
+    display: flex;
+}
+.recent-actions .recent {
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.recent-actions .more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.recent-new .recent-new-image .r-n-i{
+    height: 150px;
+    width: 250px;
+}
+
+
+.more-cards {
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 0px;
+}
+
+.more-cards-news {
+    text-align: center;
+    padding: 40px;
+}
+
+.more-cards-service {
+    text-align: center;
+    padding: 40px;
+}
+
+.more-cards-faq {
+    text-align: center;
+    padding: 40px;
+}
+
+.more-icons {
+    height: 100px;
+    width: 100px;
+}
