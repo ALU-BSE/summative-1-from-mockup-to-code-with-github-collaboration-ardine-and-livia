@@ -4,11 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Home Page</title>
 </head>
 <body>
-    <header>
-
+    <header id="header" class="headroom">
+        <div class="header-container">
+            <div class="logo">
+                <h3 style="float:left">Gasabo District</h3>
+            </div>
+            <div class="search" style="padding: 10px">
+                <input type="text" value="Search here" style="padding:10px; border-radius: 50px; text-align:center; color: gray">
+            </div>
+            <div class="language" style="padding: 18px">
+                <input type="dropdown" value="English" style="">
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-content">
+                    <a href="home.html" class="nav-links">OVERVIEW</a>
+                    <a href="sectors.html" class="nav-links">SECTORS</a>
+                    <a href="news.html" class="nav-links">NEWS</a>
+                    <a href="services.html" class="nav-links">SERVICES</a>
+                    <a href="contact.html" class="nav-links">CONTACTS</a>
+                    <a href="faq.html" class="nav-links">FAQ</a>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="hero-section">
@@ -23,7 +47,7 @@
         <h3 class="recent-h3">RECENT ACTIONS</h3>
         <section class="recent-actions">
             <div class="recent">
-                <section class="recent-new">
+                <div class="recent-new">
                     <div class="recent-new-image">
                         <iframe class="r-n-i"></iframe>
                     </div>
@@ -38,9 +62,9 @@
                             <p>Chinese medical team donates medical supplies to local hospital in Rwanda</p>
                         </div>
                     </div>
-                </section>
+                </div>
 
-                <section class="recent-new">
+                <div class="recent-new">
                     <div class="recent-new-image">
                         <iframe class="r-n-i"></iframe>
                     </div>
@@ -55,9 +79,9 @@
                             <p>Gasabo District  join forces with parterns  to combat Gender-Based Violence and promote self-reliance</p>
                         </div>
                     </div>
-                </section>
+                </div>
 
-                <section class="recent-new">
+                <div class="recent-new">
                     <div class="recent-new-image">
                         <iframe class="r-n-i"></iframe>
                     </div>
@@ -72,14 +96,14 @@
                             <p>How many sectors are in Gasabo District?</p>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
 
 
             <div class="more">
                 
                     <div class="more-rectangle">
-                        <h5 class="m-r-content-1" style="float:left">More</h5>
+                        <h5 class="m-r-content-1" style="">More</h5>
                         <img class="m-r-content-2-icon" style="float: right;">
                     </div>
                     <div class="more-cards">
@@ -123,9 +147,19 @@
                 </div>
         </section>
 
-        <section class="footer">
-
-        </section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-content-info">
+                        <h3>Gasabo District</h3>
+                    </div>
+                    <div class="footer-content-map" style="float:left">
+                        <iframe></iframe>
+                    </div>
+                </div>
+    
+            </div>
+        </footer>
     </main>
 </body>
 </html>
