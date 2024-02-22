@@ -5,74 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
     
-      <header class="header">
-        <div class="top-bar"></div>
-        <nav class="nav-bar"></nav>
-        <h1 class="district-title">Gasabo District</h1>
-        <div class="search-bar">
-          <span class="search-bar-text">SEARCH</span>
-          <div class="search-bar-icon">
-            <img src="https://via.placeholder.com/22x22" alt="Search icon">
+  <header id="header" class="headroom">
+  <div class="header-container">
+      <div class="logo">
+          <h3 style="float:left">Gasabo District</h3>
+      </div>
+      <div class="search" style="padding: 10px">
+          <input type="text" value="Search here" style="padding:10px; border-radius: 50px; text-align:center; color: gray">
+      </div>
+      <div class="language" style="padding: 18px">
+          <input type="dropdown" value="English" style="">
+      </div>
+  </div>
+  <nav class="nav">
+      <div class="nav-container">
+          <div class="nav-content">
+              <div class="nav-links"><a href="home.html" class="links">OVERVIEW</a></div>
+              <div class="nav-links"><a href="sectors.html" class="links">SECTORS</a></div>
+              <div class="nav-links"><a href="news.html" class="links">NEWS</a></div>
+              <div class="nav-links"><a href="services.html" class="links">SERVICES</a></div>
+              <div class="nav-links"><a href="contact.html" class="links-home">CONTACTS</a></div>
+              <div class="nav-links"><a href="faq.html" class="links-1">FAQ</a></div>
+              
           </div>
-        </div>
-        <div class="user-menu">
-          <div class="user-menu-icon">
-            <div></div>
-          </div>
-          <div class="user-menu-text">
-            <div class="user-menu-language">
-              <span class="user-menu-language-text">English</span>
-              <div class="user-menu-language-icon">
-                <div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </header>
-
-    <nav class="navigation">
-      <ul>
-        <li class="nav-item">
-          <a href="#">OVERVIEW</a>
-          <div class="nav-item-icon">
-            <div></div>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#">SECTORS</a>
-          <div class="nav-item-icon">
-            <div></div>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#">NEWS</a>
-          <div class="nav-item-icon">
-            <div></div>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#">SERVICES</a>
-          <div class="nav-item-icon">
-            <div></div>
-          </div>
-        </li>
-        <li class="nav-item active">
-          <a href="#">CONTACTS</a>
-          <div class="nav-item-icon">
-            <div></div>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="#">FAQ</a>
-          <div class="nav-item-icon">
-            <div></div>
-          </div>
-        </li>
-      </ul>
-    </nav>
+      </div>
+  </nav>
+</header>
 
     <main>
       <div class="info-box">
@@ -244,26 +207,20 @@
     </div>
     </main>
 
-    <div class="footer-container">
-      <div class="footer-content">
-        <div class="section">
-            <div class="title">GASABO DISTRICT</div>
-            <div class="contact">
-                <div class="subtitle">Contact</div>
-                <div>Email: gasabodistrict@ruand.</div>
-                <div>Phone Number: 1560 (Free)</div>
-                <div>Ask Us Anything --- Link</div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="title">Social Media</div>
-            <div>Facebook: www.facebook.com/</div>
-            <div>X (Twitter): www.xtwitter.com/</div>
-            <div>Instagram: www.igramm.com/</div>
-        </div>
-    </div>
-    <img src="https://via.placeholder.com/636x346" alt="Placeholder Image">
-    </div>
+    <footer>
+      <div class="footer-container">
+          <div class="footer-content">
+              <div class="footer-content-info">
+                  <h3>Gasabo District</h3>
+                  <h5><b>Ask Us Anything</b> <br>Email : gasabodistrict@ruand<br>Phone Number: 1560(Free)<br>Social Media: Facebook X(Twitter) Instagram</h5>
+              </div>
+              <div class="footer-content-map" style="float:left">
+                  <img alt="map" src="images/map_with_location_pin.png" style="height: 200px">
+              </div>
+          </div>
+
+      </div>
+  </footer>
 </body>
 </html>
 
