@@ -9,7 +9,7 @@ body {
 }
 
 .hero-section {
-   background-image: linear-gradient(to bottom, #ffff00, #ffffff );
+   background-image: linear-gradient(to bottom, rgba(250, 210, 1, 1), #ffffff );
 }
   
 .hero-section .hero-container {
