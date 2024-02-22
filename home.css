@@ -102,7 +102,7 @@ body {
 }
 
 .more-rectangle {
-    border: 1px solid black;
+    border: 3px solid rgba(250, 210, 1, 1);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 0px;
@@ -111,7 +111,7 @@ body {
 }
 
 .more-cards {
-    background-image: linear-gradient(to bottom right, #ffff00, #ffffff);
+    background-image: linear-gradient(to bottom right, white, rgba(250, 210, 1, 0.8), #ffffff);
     align-items: center;
     justify-content: space-evenly;
     padding-block: 0px;
@@ -135,7 +135,13 @@ body {
     padding: 40px;
 }
 
-.more-icons {
-    height: 100px;
-    width: 100px;
+
+button {
+    background-color: rgba(32, 96, 61, 1);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: auto;
+    stroke: none;
+
 }
