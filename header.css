@@ -8,21 +8,56 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    gap:inherit;
+    
 
+}
+
+.nav-container {
+    margin-left: 20px;
 }
 
 .nav-content {
-    display: block;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 
 .nav-links {
-    list-style: none;
-    font-style: none;
+    gap: 20px;
+}
+
+.links {
+    text-decoration: none;
     color: black;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.links-1 {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.links-home {
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid black;
+    border-bottom: 4px solid rgba(250, 210, 1, 1);
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    
 }

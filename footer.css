@@ -7,3 +7,24 @@
     padding-right: 20px;
     color: white;
 }
+
+.footer-content {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-content-info h3{
+        font-size:x-large;
+
+}
+
+.footer-content-info h5 {
+    text-align: start;
+}
+
+footer {
+    padding-top: 50px;
+}
