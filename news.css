@@ -1,0 +1,263 @@
+.header {
+    width: 1440px;
+    height: 86px;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    background: #00A3E0;
+  
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 180px;
+    top: 11px;
+    background: white;
+    border-radius: 9999px;
+  }
+  
+  .district-name {
+    position: absolute;
+    left: 252px;
+    top: 24px;
+    color: black;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: bold;
+    line-height: normal;
+    word-wrap: break-word;
+  }
+  .search-box {
+    width: 240px; 
+    height: 37px; 
+    position: absolute;
+    left: 599px; 
+    top: 23px; 
+    background: white;
+    border-radius: 40px;
+    border: 1px black solid;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+  }
+  
+  .search-text {
+    color: black;
+    font-size: 12px;
+    font-family: Open Sans;
+    font-weight: 600;
+    word-wrap: break-word
+  }
+  
+  .search-icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-icon img {
+    width: 21.64px;
+    height: 21.95px;
+  }
+  
+  .container {
+    position: absolute;
+    left: 1122px;
+    top: 31px;
+    width: 132px;
+    height: 25px;
+    background: white;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    display: inline-flex;
+  }
+  
+  .icon-container {
+    width: 24px;
+    height: 24px;
+    padding-left: 1.50px;
+    padding-right: 1.50px;
+    padding-top: 5.50px;
+    padding-bottom: 5.50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .icon {
+    width: 21px;
+    height: 13px;
+    background: black;
+  }
+  
+  .contett {
+    height: 25px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+  }
+  
+  .language {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+  }
+  
+  .text {
+    color: black;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .checkbox-container {
+    width: 25px;
+    height: 25px;
+    padding-left: 6.81px;
+    padding-right: 6.81px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .checkbox {
+    width: 11.37px;
+    height: 5.44px;
+    border-radius: 2px;
+    border: 2px black solid;
+  }
+
+  .containe {
+    position: absolute;
+    top: 87px; 
+    left: 322px; 
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+  }
+  
+  .menu-item {
+    flex: 0 1 auto; 
+    height: auto; 
+    padding: 10px 20px;
+    border-left: 1px #FAD201 solid;
+    border-right: 1px #FAD201 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+  }
+  
+  .bg-yellow {
+    background: rgba(250, 210, 1, 0.50);
+  }
+  
+  .menu-text {
+    color: black;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .icn-containe {
+    width: 25px;
+    height: 25px;
+    padding: 6.81px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .icn {
+    width: 11.37px;
+    height: 5.44px;
+    border-radius: 2px;
+    border: 2px black solid;
+  }
+
+  .footer-container {
+    padding-left: 180px;
+    padding-right: 300px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    left: 0px;
+    top: 1928px;
+    position: absolute;
+    background: #00A3E0;
+    justify-content: center;
+    align-items: center;
+    gap: 149px;
+    display: inline-flex;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    
+  }
+  
+  .okay {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: flex;
+  }
+  
+  .footer-title {
+    color: white;
+    font-size: 35px;
+    font-family: Open Sans;
+    font-weight: 200px;
+    word-wrap: break-word;
+  }
+  
+  .contact, .subtitle {
+    color: white;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+
+
+  .coming-soon {
+    width: 448px;
+    font-size: 56px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    color: black; 
+    position: absolute; 
+    top: 386px; 
+    left: calc(50% - 224px); 
+  }
+  
+  .main-div {
+    width: 1440px; 
+    height: 574px; 
+    background: white; 
+    border: 1px solid black; 
+    position: absolute; 
+    top: 137px;
+    left: calc(50% - px); 
+  }
+  
+  
