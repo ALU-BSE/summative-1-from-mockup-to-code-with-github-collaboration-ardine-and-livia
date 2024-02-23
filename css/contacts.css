@@ -1,11 +1,6 @@
-.header {
-  width: 1440px;
-  height: 86px;
-  position: absolute;
-  left: 0;
-  top: 1px;
-  background: #00A3E0;
-
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .circle {

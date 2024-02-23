@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
     width: 1051px;
     height: 264px;
@@ -6,7 +11,8 @@
     display: inline-flex;
     background: blue;
   }
-  
+
+
   .content {
     flex-direction: column;
     justify-content: flex-start;
